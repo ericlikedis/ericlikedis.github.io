@@ -22,8 +22,7 @@ title: Eric Reymundo # the main title
 
 tagline: Cloud Security Engineer | This blog serves as a place for me to publish technical writeups and passion projects. :) - Enjoy
 
-tryhackme_badge: 
-{% include linkedin_badge.html %} 
+{% include tryhackme_badge.html %}
 
 description: >- # used by seo meta and the atom feed
   Blog for technical writing.
