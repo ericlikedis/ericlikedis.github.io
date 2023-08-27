@@ -23,10 +23,7 @@ title: Eric Reymundo # the main title
 tagline: Cloud Security Engineer | This blog serves as a place for me to publish technical writeups and passion projects. :) - Enjoy
         
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
-
-tryhackme_badge: |
-  <script src="https://tryhackme.com/badge/313518"></script>
+  Blog for technical writing.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: https://ericlikedis.github.io
