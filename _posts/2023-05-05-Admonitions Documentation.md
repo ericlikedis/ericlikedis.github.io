@@ -32,8 +32,6 @@ What does this mean, you might ask?
 
 ## Usage
 
-[![](https://raw.githubusercontent.com/valentine195/obsidian-admonition/master/images/all.gif)](https://raw.githubusercontent.com/valentine195/obsidian-admonition/master/images/all.gif)
-
 Place a code block with the admonition type:
 
 ```ad-important
@@ -41,8 +39,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla.
 ```
 
 Becomes:
-
-[![](https://raw.githubusercontent.com/valentine195/obsidian-admonition/master/images/default.png)](https://raw.githubusercontent.com/valentine195/obsidian-admonition/master/images/default.png)
 
 ## Options
 
@@ -65,13 +61,8 @@ title: Title
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla.
 ```
 
-[![](https://raw.githubusercontent.com/valentine195/obsidian-admonition/master/images/title.png)](https://raw.githubusercontent.com/valentine195/obsidian-admonition/master/images/title.png)
 
 Custom titles are rendered as Markdown, so they support the full Obsidian Markdown syntax.
-
-[![](https://raw.githubusercontent.com/valentine195/obsidian-admonition/master/images/title-markdown.png)](https://raw.githubusercontent.com/valentine195/obsidian-admonition/master/images/title-markdown.png)
-
-[![](https://raw.githubusercontent.com/valentine195/obsidian-admonition/master/images/rendered-title-markdown.png)](https://raw.githubusercontent.com/valentine195/obsidian-admonition/master/images/rendered-title-markdown.png)
 
 Leave the title field blank to only display the admonition.
 
@@ -79,8 +70,6 @@ Leave the title field blank to only display the admonition.
 title:
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla.
 ```
-
-[![](https://raw.githubusercontent.com/valentine195/obsidian-admonition/master/images/no-title.png)](https://raw.githubusercontent.com/valentine195/obsidian-admonition/master/images/no-title.png)
 
 ### Collapsible
 
@@ -179,8 +168,6 @@ console.log("Hello!");
 
 ````
 `````
-
-[![](https://raw.githubusercontent.com/valentine195/obsidian-admonition/master/images/nested-code.png)](https://raw.githubusercontent.com/valentine195/obsidian-admonition/master/images/nested-code.png)
 
 ## Admonition Types
 
@@ -402,7 +389,6 @@ As of v6.8.0, an additional non-code block syntax can be used that is inspired b
 > [!quote]
 > This is an admonition!
 
-[![](https://raw.githubusercontent.com/valentine195/obsidian-admonition/master/images/msdocs.png)](https://raw.githubusercontent.com/valentine195/obsidian-admonition/master/images/msdocs.png)
 
 This syntax can also be used on indented code blocks:
 
