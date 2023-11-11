@@ -16,7 +16,7 @@ A series of hints are provided that will teach you how to discover the info you'
 
 ```
 
-**Scope**: Everything is run out of a single AWS account, and all challenges are sub-domains of [flaws.cloud](http://flaws.cloud/).
+**Scope**: Everything is run out of a single AWS account, and all challenges are sub-domains of [flaws.cloud](https://flaws.cloud/).
 
 **Contact**  
 This was built by Scott Piper ([@0xdabbad00](https://twitter.com/0xdabbad00), [summitroute.com](https://summitroute.com/))
@@ -33,7 +33,7 @@ Now for the challenge!
 
 This level is *buckets* of fun. See if you can find the first sub-domain.
 
-Need a hint? Visit [Hint 1](http://flaws.cloud/hint1.html)
+Need a hint? Visit [Hint 1](https://flaws.cloud/hint1.html)
 
 First we begin with  `nslookup` and point it to the domain `flaws.cloud`
 ### Syntax
