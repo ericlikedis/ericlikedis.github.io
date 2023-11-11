@@ -4,8 +4,8 @@ date: 2023-11-10 18:28:12
 catagories: [film, blog]
 tags: [a24, film, blog]
 image: 
-    path: /assets/images/shot2.png
-    alt: The Texas Theatre, Dallas TX
+  path: /assets/images/shot2.png
+  alt: The Texas Theatre, Dallas TX
 ---
 
 > This blog entry basically will outline my experience at the Dallas world premiere of The Iron Claw. 
