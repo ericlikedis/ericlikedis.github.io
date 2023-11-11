@@ -81,7 +81,6 @@ If a blank title is provided, the collapse parameter will not do anything.
 
 Admonitions may be set to be collapsible by default in settings.
 
-[![](https://raw.githubusercontent.com/valentine195/obsidian-admonition/master/images/collapse.gif)](https://raw.githubusercontent.com/valentine195/obsidian-admonition/master/images/collapse.gif)
 
 ### Icon
 
