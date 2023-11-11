@@ -116,13 +116,13 @@ You can also use Shadow Step to quickly reposition behind an enemy to take full 
 
 You won’t need the enhancement or upgrade, since we’ll be mainly using it as an emergency survival tool.
 
-![](https://fextralife.com/wp-content/uploads/2023/05/shadow-step-twisting-blades-417x640.jpg)
+![photo](https://fextralife.com/wp-content/uploads/2023/05/shadow-step-twisting-blades-417x640.jpg)
 
 Passives
 
 For passives of this Diablo 4 Twisting Blades Rogue Build, you’ll be taking [**Shadow Crash**](https://diablo4.wiki.fextralife.com/Shadow+Crash) to gain access to [**Consuming Shadows**](https://diablo4.wiki.fextralife.com/Consuming+Shadows). Shadow Crash raises the chances of Stunning enemies when they receive Shadow Damage which works great for elites, but the Skill you’ll want more is Consuming Shadows, hence the 2-point investment. This lets you generate all the Energy you spent in the combo, provided that you kill them with the Shadow Imbuement.
 
-![](https://fextralife.com/wp-content/uploads/2023/05/consuming-shadows-twisting-blades.jpg)
+![photo](https://fextralife.com/wp-content/uploads/2023/05/consuming-shadows-twisting-blades.jpg)
 
 The other passive that you’ll want to take are **[Exploit](https://diablo4.wiki.fextralife.com/Exploit)** and **[Malice](https://diablo4.wiki.fextralife.com/Malice)**.
 
@@ -132,7 +132,7 @@ Exploit increases the damage you deal to both **[Healthy](https://diablo4.wiki.
 
 Malice increases the damage you deal to Vulnerable enemies, which synergizes perfectly with the [**Blended Shadow Imbuement**](https://diablo4.wiki.fextralife.com/Blended+Shadow+Imbuement) that makes enemies vulnerable after the explosions.
 
-![](https://fextralife.com/wp-content/uploads/2023/05/malice-twisting-blades.jpg)
+![photo](https://fextralife.com/wp-content/uploads/2023/05/malice-twisting-blades.jpg)
 
 ### Rogue Build for Boss Fights
 
@@ -142,7 +142,7 @@ Boss fights are handled a bit differently with this Diablo 4 Twisting Blades Rog
 
 Shadow Clone is an ultimate ability that will provide you with aid by conjuring your own shadow to copy the actions you’re pulling off. Although the damage won’t be as potent, it’s still a great way of increasing our single target damage. You can also invest in [**Prime Shadow Clone**](https://diablo4.wiki.fextralife.com/Prime+Shadow+Clone) to have another option to make you Unstoppable every time Shadow Clone is activated.
 
-![](https://fextralife.com/wp-content/uploads/2023/05/shadow-clone-twisting-blades.jpg)
+![photo](https://fextralife.com/wp-content/uploads/2023/05/shadow-clone-twisting-blades.jpg)
 
 Make sure to use your dash to avoid boss attacks or to quickly disengage from combat to drink a potion and recover your health. Same as with regular enemies, you’ll want to save Shadow Step for when you are affected by a movement impairing effect. Finally, remember that you can also use your **[Shadow Clone Ultimate](https://diablo4.wiki.fextralife.com/Shadow+Clone)** to the same end, thanks to **[Prime Shadow Clone](https://diablo4.wiki.fextralife.com/Prime+Shadow+Clone)** which provides you [**Unstoppable**](https://diablo4.wiki.fextralife.com/Unstoppable) for 5 seconds.
 
@@ -154,4 +154,4 @@ You can run around the map and stack a couple of enemy groups and engage all of 
 
 When it comes to Legendary Aspects, you’ll also want to get the **[Aspect of Lethal Dusk](https://diablo4.wiki.fextralife.com/Aspect+of+Lethal+Dusk)** and [**Ravenous Aspect**](https://diablo4.wiki.fextralife.com/Ravenous+Aspect) for this Diablo 4 Build. Lethal Dusk grants Stealth when evading through a Shadow Imbuement infect enemy, which is great if you need to recover or reposition, and on top of that, it will give you a buff that grants you 1~5% of maximum life recovered on kill for 4 seconds. Meanwhile, Ravenous Aspect rewards you with increased Energy regeneration when a Vulnerable enemy is slain, which works hand-in-hand with Blended Shadow Imbuement.
 
-![](https://fextralife.com/wp-content/uploads/2023/05/aspect-of-lethal-dusk-363x640.jpg)
+![photo](https://fextralife.com/wp-content/uploads/2023/05/aspect-of-lethal-dusk-363x640.jpg)
