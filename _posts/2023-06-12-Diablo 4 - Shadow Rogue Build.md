@@ -155,3 +155,5 @@ You can run around the map and stack a couple of enemy groups and engage all of 
 When it comes to Legendary Aspects, you’ll also want to get the **[Aspect of Lethal Dusk](https://diablo4.wiki.fextralife.com/Aspect+of+Lethal+Dusk)** and [**Ravenous Aspect**](https://diablo4.wiki.fextralife.com/Ravenous+Aspect) for this Diablo 4 Build. Lethal Dusk grants Stealth when evading through a Shadow Imbuement infect enemy, which is great if you need to recover or reposition, and on top of that, it will give you a buff that grants you 1~5% of maximum life recovered on kill for 4 seconds. Meanwhile, Ravenous Aspect rewards you with increased Energy regeneration when a Vulnerable enemy is slain, which works hand-in-hand with Blended Shadow Imbuement.
 
 ![photo](https://fextralife.com/wp-content/uploads/2023/05/aspect-of-lethal-dusk-363x640.jpg)
+
+
