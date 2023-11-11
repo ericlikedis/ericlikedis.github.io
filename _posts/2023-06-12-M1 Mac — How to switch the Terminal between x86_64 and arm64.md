@@ -14,7 +14,7 @@ So you have the new Mac with Apple Silicon. However, a lot of your projects are 
 
 While there are many ways of doing it, the following is the best one I have found to easily switch between the two architectures using just a simple Terminal command as below (actually hiding the command under an alias)..
 
-![](https://miro.medium.com/v2/resize:fit:1400/1*rYeE18-X-t4J1z1ZzuQshQ.png)
+![photo](https://miro.medium.com/v2/resize:fit:1400/1*rYeE18-X-t4J1z1ZzuQshQ.png)
 
 switching efficiently between x86_64 and arm64 using created alias
 
@@ -33,7 +33,7 @@ $env /usr/bin/arch -<architecture> /bin/zsh --login
 
 `$arch`
 
-![](https://miro.medium.com/v2/resize:fit:1400/1*BFSzZUxZ2RAIDrOS9ncMJA.png)
+![photo](https://miro.medium.com/v2/resize:fit:1400/1*BFSzZUxZ2RAIDrOS9ncMJA.png)
 
 see current architecture the Terminal is using
 
@@ -47,7 +47,7 @@ As we see in the image above, I am currently using arm64, hence any code I compi
 
 Now if you type the arch command again, you will see that the target architecture has been changed. Now you can go ahead and compile your code using Rosetta 2 for the x86_64 architecture.
 
-![](https://miro.medium.com/v2/resize:fit:1400/1*dElbDg8BTe3jgXcS_e5p9A.png)
+![photo](https://miro.medium.com/v2/resize:fit:1400/1*dElbDg8BTe3jgXcS_e5p9A.png)
 
 # Creating alias in .zshrc:
 
@@ -57,7 +57,7 @@ Just _cd_ into your home directory and open the .zshrc file.. If you don’t h
 
 Here’s how my _.zshrc_ file looks like.. I have named my aliases arm and intel for the arm and x86_64 architectures respectively. You can name your aliases whatever you want. Just remember to relaunch the Terminal after updating and saving the _.zshrc_ file.
 
-![](https://miro.medium.com/v2/resize:fit:1400/1*kpJoebjU4eq7aP6TbZqSFQ.png)
+![photo](https://miro.medium.com/v2/resize:fit:1400/1*kpJoebjU4eq7aP6TbZqSFQ.png)
 
 adding alias to .zshrc
 
@@ -67,4 +67,4 @@ Ignoring the first line, you can see the two alias I have created for arm and in
 
 If you only want to use the Terminal app with Rosetta 2 for the x86_64 architecture, you can simple right click on the Terminal app in the _Applications>Utilities_, go the _‘Get Info’ and tick on “Open using Rosetta”_
 
-![](https://miro.medium.com/v2/resize:fit:1400/1*CIfr_8Xz6Wpme9w2_i3raA.png)
+![photo](https://miro.medium.com/v2/resize:fit:1400/1*CIfr_8Xz6Wpme9w2_i3raA.png)
