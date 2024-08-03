@@ -6,7 +6,7 @@ tags: [blog]
 pin: true
 ---
 
-# Updates
-> wip
+## Updates
+> this post is a work in progress lol
 
 test text :) 
