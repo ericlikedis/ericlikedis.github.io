@@ -9,7 +9,7 @@ img_path: /assets/images/
 
 ## Welcome!
 
-![Desktop View](1677268059300.jpeg){: width="972" height="589" .w-50 .right}
+![Desktop View](assets/images/1677268059300.jpeg){: width="972" height="589" .w-50 .right}
 Hey there, I'm Eric Reymundo, and I'm thrilled to share a glimpse of my journey with you. I currently work as a Junior Cloud Security Engineer, specializing in Detection Engineering. But how did I end up here, you might wonder? Let me take you back to where it all began.
 
 At 16, I kicked off my career by cutting grass and earning paper checks. It was a humble start that instilled in me the value of hard work and perseverance. After finishing high school, I decided to make a change and enrolled in community college around fall 2014. My sights were set on Graphic Design, and I was excited to embark on this new chapter.
