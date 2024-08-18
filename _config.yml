@@ -20,9 +20,9 @@ timezone: America/Chicago
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Eric Reymundo # the main title
+title: n30 # the main title
 
-tagline: Cloud Security Engineer | This blog serves as a place for me to publish technical writeups and passion projects. :) - Enjoy
+tagline: security engineer | this blog serves as a place for me to publish technical writeups and passion projects. :) - enjoy
 
 tryhackme_badge: |
   <script src="https://tryhackme.com/badge/313518"></script>
@@ -39,11 +39,11 @@ github:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Eric Reymundo
-  email: ereymundo2013@gmail.com # change to your email address
+  name: n30
+  email:  # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/username # change to your github homepage
+    - https://github.com/ericlikedis # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -90,7 +90,7 @@ pageviews:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: # [light | dark]
+theme_mode: dark # [light | dark]
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
