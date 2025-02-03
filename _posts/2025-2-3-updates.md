@@ -14,7 +14,7 @@ image:
 - aquired fujifilm x100vi (i keep talking about it cuz i spent rent on it lol)
 - back on youtube??
 
-{% include embed/youtube.html id='K4eYqt8LoYY' %}
+{% include youtube.html id="K4eYqt8LoYY" %}
 
 alright so i didnt really anticipate id share this blog but here are some photos ive taken with my new camera (fujifilm x100vi)
 
