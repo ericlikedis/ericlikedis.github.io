@@ -12,6 +12,23 @@ layout: compress
   {% capture prefer_mode %}data-mode="{{ site.theme_mode }}"{% endcapture %}
 {% endif %}
 
+<main aria-label="Main Content" class="col-12 col-lg-11 col-xl-9 px-md-4">
+  
+  <!-- SoundCloud Embed -->
+  {% raw %}
+  <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1758918073&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false">
+  </iframe>
+  {% endraw %}
+  
+  {% if layout.refactor or layout.layout == 'default' %}
+    {% include refactor-content.html content=content lang=lang %}
+  {% else %}
+    {{ content }}
+  {% endif %}
+</main>
+
+
 <!-- `site.alt_lang` can specify a language different from the UI -->
 <html lang="{{ page.lang | default: site.alt_lang | default: site.lang }}" {{ prefer_mode }}>
   {% include head.html %}
