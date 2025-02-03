@@ -4,9 +4,12 @@ date: 2025-02-03 14:04:54
 catagories: [blog]
 tags: [blog]
 pin: true
+image:
+  path: /assets/images/DSCF0347.JPG
+  alt: cool night out in the cliff
 ---
 
-## Updates
+# Updates
 - started my undergrad studies (m.s cybersecurity and information assurance)
 - aquired fujifilm x100vi (i keep talking about it cuz i spent rent on it lol)
 - back on youtube??
