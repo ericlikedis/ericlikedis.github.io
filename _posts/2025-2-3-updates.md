@@ -13,7 +13,7 @@ image:
 - started my undergrad studies (m.s cybersecurity and information assurance)
 - aquired fujifilm x100vi (i keep talking about it cuz i spent rent on it lol)
 - back on youtube??
-{% include embed/youtube.html id='K4eYqt8LoYYbw' %}
+{% youtube K4eYqt8LoYYbw %}
 
 alright so i didnt really anticipate id share this blog but here are some photos ive taken with my new camera (fujifilm x100vi)
 
