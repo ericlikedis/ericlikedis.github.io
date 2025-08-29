@@ -22,35 +22,19 @@ timezone: America/Chicago
 
 title: n30 # the main title
 
-<<<<<<< HEAD
 tagline: security engineer | this blog serves as a place for me to publish technical writeups and passion projects. :) - enjoy
 
 tryhackme_badge: |
   <script src="https://tryhackme.com/badge/313518"></script>
-=======
-tagline: A text-focused Jekyll theme # it will display as the subtitle
->>>>>>> 1d4e1a21b463534c492be9b4cedd3d61541194a4
 
 description: >- # used by seo meta and the atom feed
   Blog for technical writing.
 
-<<<<<<< HEAD
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: https://ericlikedis.github.io
 
 github:
   username: ericlikedis # change to your github username
-=======
-# Fill in the protocol & hostname for your site.
-# E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
-
-github:
-  username: github_username # change to your GitHub username
-
-twitter:
-  username: twitter_username # change to your Twitter username
->>>>>>> 1d4e1a21b463534c492be9b4cedd3d61541194a4
 
 social:
   # Change to your full name.
@@ -59,12 +43,7 @@ social:
   email:  # change to your email address
   links:
     # The first element serves as the copyright owner's link
-<<<<<<< HEAD
     - https://github.com/ericlikedis # change to your github homepage
-=======
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
->>>>>>> 1d4e1a21b463534c492be9b4cedd3d61541194a4
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
