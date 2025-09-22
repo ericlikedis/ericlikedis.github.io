@@ -3,7 +3,7 @@ title: February Updates
 date: 2025-02-03 14:04:54
 catagories: [blog]
 tags: [blog]
-pin: true
+pin: false
 image:
   path: /assets/images/DSCF0347.JPG
   alt: cool night out in the cliff

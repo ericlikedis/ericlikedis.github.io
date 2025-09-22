@@ -3,7 +3,7 @@ title: Downloading YouTube Videos and Audio using youtube-dl
 date: 2023-08-26 21:19:14
 categories: [Blogging]
 tags: [youtube, blog]
-pin: true
+pin: false
 image:
     path: /assets/images/youtube-dl.png
     alt: youtube-dl running on MacOS M1

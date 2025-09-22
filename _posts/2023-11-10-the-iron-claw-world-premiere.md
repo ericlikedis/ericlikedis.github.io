@@ -3,7 +3,7 @@ title: The Iron Claw World Premiere
 date: 2023-11-10 18:28:12
 catagories: [film, blog]
 tags: [a24, film, blog]
-pin: true
+pin: false
 image: 
   path: /assets/images/shot2.png
   alt: The Texas Theatre, Dallas TX
