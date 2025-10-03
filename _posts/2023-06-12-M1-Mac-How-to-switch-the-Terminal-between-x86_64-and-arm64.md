@@ -1,8 +1,7 @@
 ---
+layout: post
 title: M1 Mac - How to Switch the Terminal between x86_64 and arm64
-date: 2023-08-23 15:36:14
-catagories: [macbook pro, mac m1, macOS, terminal]
-tags: [terminal, macOS, M1]
+catagory: [macbook pro, mac m1, macOS, terminal]
 ---
 
 ## How to Switch the Terminal between x86_64 and arm64

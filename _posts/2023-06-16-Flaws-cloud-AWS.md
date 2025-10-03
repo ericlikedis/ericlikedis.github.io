@@ -1,8 +1,7 @@
 ---
+layout: post
 title: Flaws.cloud walkthrough
-date: 02023-08-23 15:36:23
-catagories: [cybersecurity, Red Teaming, terminal]
-tags: [terminal, cloud, cybersecurity]
+catagory: [cybersecurity, Red Teaming, terminal]
 ---
 ## Flaws.cloud walkthrough
 

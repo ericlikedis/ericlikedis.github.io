@@ -1,12 +1,7 @@
 ---
+layout: post
 title: Downloading YouTube Videos and Audio using youtube-dl
-date: 2023-08-26 21:19:14
-categories: [Blogging]
-tags: [youtube, blog]
-pin: false
-image:
-    path: /assets/images/youtube-dl.png
-    alt: youtube-dl running on MacOS M1
+category: Blogging
 ---
 
 > youtube-dl is a command-line program to download videos from YouTube.com and a few more sites. It requires the Python interpreter, version 2.6, 2.7, or 3.2+, and it is not platform specific. It should work on your Unix box, on Windows or on macOS. It is released to the public domain, which means you can modify it, redistribute it or use it however you like.

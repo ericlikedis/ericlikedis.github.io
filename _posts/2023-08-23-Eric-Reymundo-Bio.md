@@ -1,11 +1,7 @@
 ---
+layout: post
 title: Introduction
-date: 2023-08-23 22:13:07
-pin: true
-catagories: [introduction]
-tags: [bio, markdown, docs, blog]
-image: 
-    path: assets/images/1757713422519.jpeg
+catagory: introduction
 ---
 
 ## Welcome!

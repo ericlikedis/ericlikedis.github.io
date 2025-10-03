@@ -1,12 +1,7 @@
 ---
+layout: post
 title: Passing the GCIH Exam
-date: 2023-12-19 13:05:30
-catagories: [SANS, hacking]
-tags: [cybersecurity, tech, gcih]
-pin: false
-image: 
-  path: /assets/images/giac-certified-incident-handler-gcih.png
-  alt: GIAC Certified Incident Handler issued to Eric Reymundo
+catagory: [SANS, hacking]
 ---
 #### Certification Verification:
 

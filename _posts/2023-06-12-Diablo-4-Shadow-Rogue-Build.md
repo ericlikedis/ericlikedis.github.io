@@ -1,8 +1,7 @@
 ---
+layout: post
 title: Diablo 4 - Shadow Rouge Build
-date: 2023-08-23 15:36:08
-catagories: [Diablo 4, Gaming, ARPG]
-tags: [diablo, diablo 4, docs]
+catagory: [Diablo 4, Gaming, ARPG]
 ---
 
 ```ad-important

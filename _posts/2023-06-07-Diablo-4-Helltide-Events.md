@@ -1,8 +1,7 @@
 ---
+layout: post
 title: Diablo 4 HellTide Events
-date: 2023-08-23 15:36:03
-catagories: [Diablo 4, Gaming, ARPG]
-tags: [diablo, diablo 4, docs]
+catagory: [Diablo 4, Gaming, ARPG]
 ---
 
 ## Diablo 4 HellTide Events

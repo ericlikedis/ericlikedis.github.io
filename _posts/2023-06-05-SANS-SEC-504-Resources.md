@@ -1,8 +1,7 @@
 ---
+layout: post
 title: SANS SEC 504 - Resources
-date: 2023-08-23 15:35:56
-catagories: [cybersecurity, malware, red team tools]
-tags: [SANS, SEC504, GCIH, cybersecurity]
+catagory: [cybersecurity, malware, red team tools]
 ---
 
 > Here are some valuable resouces that were recommended when taking the SANS SEC504 course. 
