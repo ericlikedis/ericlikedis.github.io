@@ -5,7 +5,7 @@
     <main class="page-content" aria-label="Content">
       <div class="w">
         <!-- Added GIF below -->
-        <img src="{{ site.baseurl }}/assets/globe.gif" alt="animated globe" width="50" style="display:block;margin:2rem auto;background:transparent;border:none;box-shadow:none;">
+        <img src="{{ site.baseurl }}/assets/globe.gif" alt="animated globe" width="120" style="display:block;margin:2rem auto;background:transparent;border:none;box-shadow:none;">
         {{ content }}
       </div>
     </main>
@@ -19,5 +19,9 @@
         <script type="text/javascript" src="{{ site.baseurl }}/assets/js/{{ js_file }}.js"></script>
       {% endfor %}
     {% endif %}
+
+    <!-- Small image at the bottom -->
+    <img src="{{ site.baseurl }}/assets/crown.png" alt="Pirate Flag" width="100" style="display:block;margin:0 auto;border:none;padding:0;background:transparent;box-shadow:none;">
+
   </body>
 </html>

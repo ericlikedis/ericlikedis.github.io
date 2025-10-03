@@ -4,7 +4,7 @@ email: ereymundo2013@gmail.com # email of site's author
 url: https://ericlikedis.github.io # root address of the site
 baseurl: "/" # subpath of the site, e.g. "/blog" (leave it blank "" if your site shouldn't use a subpath)
 description: >
-  <p><span style="color: #FFFFFF; font-size: 1.2em;">ἀτμίς</span> <br> my only fixed address i take photos, study cyber (MSCIA) always interested in working on cool projects : feel free to reach out! just surfing the web <a href="https://open.spotify.com/user/nerdyfresh08?si=59ea43b02e91442c" style="color: #FFFFFF;"> <span style="color: #FFFFFF;"> <br> <br> listen to my sick playlists <br> <br> </span> </a> <span style="color: #0ed200;"> interest : cyber/privacy, art history, philosophy, music, poetry, opera, theater, books, photographing, experiencing, learning... <br> <br> sweet hate : red pill content, advertising, 2-factor authentication and windows <br> <p>
+  <p><span style="color: #FFFFFF; font-size: 1.2em;">ἀτμίς</span> <br> my only fixed address i take photos, study cyber (MSCIA) always interested in working on cool projects : feel free to reach out! just surfing the web <a href="https://open.spotify.com/user/nerdyfresh08?si=59ea43b02e91442c" style="color: #FFFFFF;"> <span style="color: #FFFFFF;"> <br> ► <br> listen to my sick playlists <br> ◄ <br> </span> </a> <span style="color: #0ed200;"> interest : cyber/privacy, art history, philosophy, music, poetry, opera, theater, books, photographing, experiencing, learning... <br> <br> sweet hate : red pill content, advertising, 2-factor authentication and windows <br> <p>
 
 permalink: /:slug.html
 
