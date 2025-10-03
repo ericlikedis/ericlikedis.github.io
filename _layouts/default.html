@@ -6,20 +6,7 @@
       <div class="w">
         <!-- Added GIF below -->
         <img src="{{ site.baseurl }}/assets/globe.gif" alt="animated globe" width="50" style="display:block;margin:2rem auto;background:transparent;border:none;box-shadow:none;">
-      <script>
-        (function () {
-          var gifUrl = "{{ site.baseurl }}/assets/globe-transparent.gif";
-          var img = document.getElementById("globe");
-          var tester = new Image();
-          tester.onload = function () {
-            img.src = gifUrl;
-          };
-          tester.onerror = function () {
-            // do nothing
-          };
-          tester.src = gifUrl;
-        })();
-      </script>
+        {{ content }}
       </div>
     </main>
 
