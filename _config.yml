@@ -2,22 +2,9 @@ title: n30 # name of the site
 author: n30 # name of site's author
 email: ereymundo2013@gmail.com # email of site's author
 url: https://ericlikedis.github.io # root address of the site
-baseurl: "/" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
-description: |-
-  my only fixed address i take photos, study cyber (MSCIA) always interested in working on cool projects : feel free to reach out!  just surfing the web
-  <a href="https://open.spotify.com/user/nerdyfresh08?si=59ea43b02e91442c" style="color: #00FF00;">
-  <span style="color: #00FF00;">  
-  listen to my sick playlists 
-  </span> 
-  </a> 
-  <span style="color: #00FF00;"> <span style="font-size: 40px;">️ 
-  interest : cyber/privacy, art history, philosophy, music, poetry, opera, theater, books, photographing, experiencing, learning... 
-  <br> 
-  <br> 
-  sweet hate : red pill content, advertising, 2-factor authentication and windows 
-  <br> 
-  </p>
-
+baseurl: "/" # subpath of the site, e.g. "/blog" (leave it blank "" if your site shouldn't use a subpath)
+description: >
+  <p><span style="color: #FFFFFF; font-size: 1.2em;">ἀτμίς</span> <br> my only fixed address i take photos, study cyber (MSCIA) always interested in working on cool projects : feel free to reach out! just surfing the web <a href="https://open.spotify.com/user/nerdyfresh08?si=59ea43b02e91442c" style="color: #FFFFFF;"> <span style="color: #FFFFFF;"> <br> <br> listen to my sick playlists <br> <br> </span> </a> <span style="color: #0ed200;"> interest : cyber/privacy, art history, philosophy, music, poetry, opera, theater, books, photographing, experiencing, learning... <br> <br> sweet hate : red pill content, advertising, 2-factor authentication and windows <br> <p>
 
 permalink: /:slug.html
 
@@ -30,7 +17,7 @@ theme_config:
   appearance: "auto" # can be "light", "dark" or "auto"
   back_home_text: ".." # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
-  show_description: false # show blog description in home page
+  show_description: true # show blog description in home page
   lowercase_titles: true # show titles in lowercase in lists
 
 sass:
@@ -39,3 +26,7 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+collections:
+  reco:
+    output: true
