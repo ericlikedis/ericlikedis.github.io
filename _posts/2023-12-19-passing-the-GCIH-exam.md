@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Passing the GCIH Exam
-catagory: [SANS, hacking]
+catagory: [SANS, cybersecurity]
 ---
 #### Certification Verification:
 
