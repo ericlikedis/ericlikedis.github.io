@@ -2,8 +2,7 @@ title: neo # name of the site
 author: n30 # name of site's author
 email: someone@someemailaddress.com # email of site's author
 url: https://ericlikedis.github.io # root address of the site
-baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
-description: > # description of the site (multiple lines allowed)
+baseurl: "/" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed) 
   <p> <span style="color: #00FF00; font-size: 1.2em;">ἀτμίς</span> <br> my only fixed address <br> i take photos, study cyber (MSCIA) <br> always interested in working on cool projects : feel free to reach out! <br>  <br> > just surfing the web <br>  <br> <span style="color: #00FF00;"> <span style="font-size: 40px;">️ </span> </span>  <a href="https://open.spotify.com/user/nerdyfresh08?si=59ea43b02e91442c" style="color: #00FF00;">
     <span style="color: #00FF00;">  listen to my sick playlists </span> </a> <span style="color: #00FF00;"> <span style="font-size: 40px;">️ </span> </span> <br> <br> interest : cyber/privacy, art history, philosophy, music, poetry, opera, theater, books, photographing, experiencing, learning... <br> <br> sweet hate : red pill content, advertising, 2-factor authentication and windows  <br> </p>
