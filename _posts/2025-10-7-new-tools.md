@@ -1,0 +1,35 @@
+---
+layout: post
+title: new tools
+category: blog
+---
+
+### things i currently have open
+
+my brave, btop, file explorer, and vscodd
+
+![image](/assets/images/iTerm2-%202025-10@2x.png)
+
+### new tools installed
+
+#### btop
+go [here](https://github.com/aristocratos/btop) for source code
+
+i installed on mac m1 using: 
+```bash
+brew install btop
+```
+what it looks like on my terminal
+
+![image](/assets/images/btop.png)
+
+#### colorls
+go [here](https://github.com/athityakumar/colorls) for source code 
+
+installation instructions will be listed in the repo above
+
+example of a tree output on my code:
+
+![image](/assets/images/iTerm2-2025-10-07-22-11@2x.png)
+
+thats all for now! thank
