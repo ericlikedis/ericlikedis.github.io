@@ -32,6 +32,7 @@ collections:
     output: true
 
 terminal_lines:
+  - "$ python3 n30.py"
   - "$ scanning local network..."
   - "$ authenticating..."
   - "$ status: ok!"
