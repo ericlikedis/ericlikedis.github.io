@@ -153,6 +153,7 @@ a {
   text-shadow: 2px 0 #00e5ff;
   animation: glitch-slice 2.4s infinite steps(15) alternate-reverse;
 }
+/*
 @keyframes glitch-slice {
   0%   { clip-path: inset(0 0 85% 0); transform: translate(0) }
   10%  { clip-path: inset(10% 0 70% 0); transform: translate(-1px,-1px) }
@@ -166,7 +167,7 @@ a {
   90%  { clip-path: inset(90% 0 0 0);    transform: translate(1px,-1px) }
   100% { clip-path: inset(0 0 85% 0);    transform: translate(0) }
 }
-
+*/
 /* CRT overlay (optional) 
 .crt { position: relative; isolation: isolate }
 .crt::after {
