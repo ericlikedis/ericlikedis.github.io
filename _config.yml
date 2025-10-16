@@ -37,4 +37,4 @@ terminal_lines:
   - "$ status: ok!"
 # optional: per-line delay (in milliseconds)
 terminal_char_ms: 60  # ms per character (matches --t above)
-terminal_gap_ms: 500   # pause between lines
+terminal_gap_ms: 400   # pause between lines
