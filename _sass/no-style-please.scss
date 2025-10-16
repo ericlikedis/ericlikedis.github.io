@@ -106,9 +106,20 @@ a {
   font: 600 18px/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   padding: 1.25rem 1.5rem;
   border-radius: 12px;
-  box-shadow: 0 0 24px rgba(0,255,140,0.08) inset, 0 12px 30px rgba(0,0,0,0.35);
+  box-shadow: 0 0 24px rgba(0,255,140,0.08) inset,
+              0 12px 30px rgba(0,0,0,0.35);
   width: fit-content;
+
+  /* Center at bottom of viewport */
+  position: fixed;
+  bottom: 2rem;               /* distance from bottom edge */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 1000;              /* keep it above other content */
+  background: rgba(10, 10, 10, 0.85); /* slight transparency looks cleaner */
 }
+
 .prompt { margin-right: .5ch; opacity: .8 }
 
 .typewriter {
