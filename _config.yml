@@ -36,4 +36,5 @@ terminal_lines:
   - "authenticating..."
   - "status: ok"
 # optional: per-line delay (in milliseconds)
-terminal_delay_ms: 3200
+terminal_char_ms: 90   # ms per character (matches --t above)
+terminal_gap_ms: 400   # pause between lines

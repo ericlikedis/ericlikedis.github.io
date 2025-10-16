@@ -99,16 +99,13 @@ a {
   color: $link-color;
 }
 
-/* === Glitchy Terminal Typewriter === */
-/* === Terminal feed (stacking lines) === */
-
 /* Fixed container at bottom */
 .terminal-container {
   position: fixed;
   bottom: 2rem;
   left: 50%;
   transform: translateX(-50%);
-  text-align: left;
+  text-align: center;
   font: 600 18px/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   color: #9cff8a;
   background: rgba(10,10,10,0.85);
@@ -126,14 +123,17 @@ a {
 .prompt { margin-right: .5ch; opacity: .8; }
 
 .typewriter {
-  display: inline-block;
-  overflow: hidden;
-  border-right: .12em currentColor;
-  width: 0ch;
+  display:inline-block;
+  overflow:hidden;
+  border-right:.12em currentColor;
+  width:0ch;
+
+  /* per-char timing + per-line delay */
+  --t: 90ms; /* ms per character (tweakable) */
   animation:
-    typing 2.8s steps(var(--n)) forwards,
+    typing calc(var(--n) * var(--t)) steps(var(--n)) forwards,
     caret-blink .85s step-end infinite;
-  animation-delay: var(--delay, 0ms);  /* set per-line in the include */
+  animation-delay: var(--delay, 0ms), var(--delay, 0ms);
 }
 @keyframes typing { to { width: calc(var(--n) * 1ch); } }
 @keyframes caret-blink { 50% { border-right-color: transparent; } }
