@@ -155,7 +155,7 @@ a {
   100% { clip-path: inset(0 0 85% 0);    transform: translate(0) }
 }
 
-/* CRT overlay (optional) */
+/* CRT overlay (optional) 
 .crt { position: relative; isolation: isolate }
 .crt::after {
   content: "";
@@ -179,7 +179,7 @@ a {
   15% { opacity: .55 }
   50% { opacity: .7 }
 }
-
+*/
 @media (prefers-reduced-motion: reduce) {
   .typewriter { animation: none; border-right: 0; width: auto }
   .glitch::before, .glitch::after, .crt::after { animation: none }
