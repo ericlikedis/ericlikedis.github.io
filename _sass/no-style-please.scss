@@ -105,7 +105,7 @@ a {
   bottom: 2rem;
   left: 50%;
   transform: translateX(-50%);
-  text-align: center;
+  text-align: left;
   font: 600 18px/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   color: #9cff8a;
   background: rgba(10,10,10,0.85);
@@ -148,7 +148,7 @@ a {
 }
 
 .terminal-container {
-  animation: terminal-fade var(--terminal-total, 3s) ease-out forwards;
+  animation: terminal-fade var(--terminal-total, 12s) ease-out forwards;
   animation-delay: var(--terminal-total, 3s); /* starts fading after full run */
 }
 /* === End Glitchy Terminal Typewriter === */
