@@ -142,4 +142,13 @@ a {
 @media (prefers-reduced-motion: reduce) {
   .typewriter { animation: none; border-right: 0; width: auto; }
 }
+/* Fade out the terminal container after all typing completes */
+@keyframes terminal-fade {
+  to { opacity: 0; transform: translate(-50%, 20px); }
+}
+
+.terminal-container {
+  animation: terminal-fade var(--terminal-total, 12s) ease-out forwards;
+  animation-delay: var(--terminal-total, 12s); /* starts fading after full run */
+}
 /* === End Glitchy Terminal Typewriter === */
