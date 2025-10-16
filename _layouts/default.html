@@ -25,10 +25,10 @@
   {% assign lines = page.terminal_lines | default: site.terminal_lines %}
   {% if lines %}
     {% for line in lines %}
-      {% include glitch-terminal.html text=line %}
+      {% include terminal.html text=line %}
     {% endfor %}
   {% else %}
-    {% include glitch-terminal.html text="initializing... access granted" %}
+    {% include terminal.html text="initializing... access granted" %}
   {% endif %}
 {% endif %}
 
