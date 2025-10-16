@@ -20,7 +20,7 @@
       {% endfor %}
     {% endif %}
 
-  <!-- Terminal container -->
+    <!-- Terminal container -->
   {% assign total_ms = acc %}
   <div class="terminal-container" style="--terminal-total: {{ total_ms | divided_by: 1000.0 }}s;">
     {% assign lines   = page.terminal_lines     | default: site.terminal_lines %}
@@ -33,6 +33,7 @@
       {% assign acc = acc | plus: line_ms | plus: gap_ms %}
     {% endfor %}
   </div>
+
 
 
 
