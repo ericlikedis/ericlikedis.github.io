@@ -20,17 +20,11 @@
       {% endfor %}
     {% endif %}
 
-<!-- Glitchy terminal (homepage only) -->
-{% if page.url == "/" or page.permalink == "/" %}
-  {% assign lines = page.terminal_lines | default: site.terminal_lines %}
-  {% if lines %}
-    {% for line in lines %}
-      {% include terminal.html text=line %}
-    {% endfor %}
-  {% else %}
-    {% include terminal.html text="initializing... access granted" %}
-  {% endif %}
-{% endif %}
+  <!-- Glitchy terminal (homepage only) -->
+    {% if page.url == "/" or page.url == "/index.html" or page.permalink == "/" %}
+      {% include terminal.html text="initializing... access granted" %}
+    {% endif %}
+
 
   </body>
 </html>
