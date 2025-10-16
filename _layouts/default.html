@@ -21,22 +21,35 @@
     {% endif %}
 
     <!-- Terminal container -->
-  {% assign total_ms = acc %}
-  <div class="terminal-container" style="--terminal-total: {{ total_ms | divided_by: 1000.0 }}s;">
-    {% assign lines   = page.terminal_lines     | default: site.terminal_lines %}
-    {% assign char_ms = page.terminal_char_ms   | default: site.terminal_char_ms | default: 90 %}
-    {% assign gap_ms  = page.terminal_gap_ms    | default: site.terminal_gap_ms  | default: 400 %}
+  {% if page.url == "/" or page.url == "/index.html" or page.permalink == "/" %}
+    {%- comment -%}
+    First pass: compute total run time (sum of per-line typing + gaps)
+    {%- endcomment -%}
+    {% assign lines   = page.terminal_lines   | default: site.terminal_lines %}
+    {% assign char_ms = page.terminal_char_ms | default: site.terminal_char_ms | default: 90 %}
+    {% assign gap_ms  = page.terminal_gap_ms  | default: site.terminal_gap_ms  | default: 400 %}
+
     {% assign acc = 0 %}
     {% for line in lines %}
-      {% include terminal.html text=line delay_ms=acc %}
       {% assign line_ms = line | size | times: char_ms %}
       {% assign acc = acc | plus: line_ms | plus: gap_ms %}
     {% endfor %}
-  </div>
+    {% assign total_ms = acc %}
 
-
-
-
+    {%- comment -%}
+    Second pass: render lines with cumulative delays,
+    and set a CSS var on the container for the fade timing.
+    {%- endcomment -%}
+    <div class="terminal-container" aria-live="polite"
+        style="--terminal-total: {{ total_ms | divided_by: 1000.0 }}s;">
+      {% assign acc = 0 %}
+      {% for line in lines %}
+        {% include terminal.html text=line delay_ms=acc %}
+        {% assign line_ms = line | size | times: char_ms %}
+        {% assign acc = acc | plus: line_ms | plus: gap_ms %}
+      {% endfor %}
+    </div>
+  {% endif %}
 
   </body>
 </html>
