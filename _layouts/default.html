@@ -20,14 +20,17 @@
       {% endfor %}
     {% endif %}
 
-    <!-- animated text -->
-  <link rel="stylesheet" href="{{ '/assets/css/initializing_animation.css' | relative_url }}">
+<!-- Glitchy terminal (homepage only) -->
+{% if page.url == "/" or page.permalink == "/" %}
+  {% assign lines = page.terminal_lines | default: site.terminal_lines %}
+  {% if lines %}
+    {% for line in lines %}
+      {% include glitch-terminal.html text=line %}
+    {% endfor %}
+  {% else %}
+    {% include glitch-terminal.html text="initializing... access granted" %}
+  {% endif %}
+{% endif %}
 
-  <!--static include -->
-  {% include initializing.html %}
-
-  <!--dynamic include -->
-  {% include initializing.html text="connecting to mainframe..." %}
-    
   </body>
 </html>

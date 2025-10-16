@@ -30,3 +30,8 @@ plugins:
 collections:
   reco:
     output: true
+
+
+terminal_lines:
+  - "scanning local network..."
+  - "status: ok"
