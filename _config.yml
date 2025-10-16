@@ -32,9 +32,9 @@ collections:
     output: true
 
 terminal_lines:
-  - "scanning local network..."
-  - "authenticating..."
-  - "status: ok"
+  - "$ scanning local network..."
+  - "$ authenticating..."
+  - "$ status: ok!"
 # optional: per-line delay (in milliseconds)
-terminal_char_ms: 90   # ms per character (matches --t above)
-terminal_gap_ms: 400   # pause between lines
+terminal_char_ms: 60  # ms per character (matches --t above)
+terminal_gap_ms: 500   # pause between lines
