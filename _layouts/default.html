@@ -21,9 +21,16 @@
     {% endif %}
 
   <!-- Glitchy terminal (homepage only) -->
-    {% if page.url == "/" or page.url == "/index.html" or page.permalink == "/" %}
-      {% include terminal.html text="initializing... access granted" %}
-    {% endif %}
+  {% if page.url == "/" or page.url == "/index.html" or page.permalink == "/" %}
+    {% assign lines = page.terminal_lines | default: site.terminal_lines %}
+    {% assign base_delay = page.terminal_delay_ms | default: site.terminal_delay_ms | default: 3200 %}
+
+    {% for line in lines %}
+      {% assign delay = forloop.index0 | times: base_delay %}
+      {% include terminal.html text=line delay_ms=delay %}
+    {% endfor %}
+  {% endif %}
+
 
 
   </body>

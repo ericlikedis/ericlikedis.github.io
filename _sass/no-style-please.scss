@@ -125,6 +125,7 @@ a {
 .typewriter {
   --n: 28;
   display: inline-block;
+  animation-delay: var(--delay, 0ms), var(--delay, 0ms);
   white-space: nowrap;
   overflow: hidden;
   border-right: .12em currentColor;

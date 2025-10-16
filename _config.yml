@@ -31,7 +31,9 @@ collections:
   reco:
     output: true
 
-
 terminal_lines:
   - "scanning local network..."
+  - "authenticating..."
   - "status: ok"
+# optional: per-line delay (in milliseconds)
+terminal_delay_ms: 3200

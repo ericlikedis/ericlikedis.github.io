@@ -1,7 +1,7 @@
-<div class="terminal crt">
+<div class="terminal">
   <span class="prompt">$</span>
   <span class="typewriter glitch"
-        style="--n: {{ include.text | size }};"
+        style="--n: {{ include.text | size }}; --delay: {{ include.delay_ms | default: 0 }}ms;"
         data-text="{{ include.text }}">
     {{ include.text }}
   </span>
