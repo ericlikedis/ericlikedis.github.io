@@ -148,7 +148,8 @@ a {
 }
 
 .terminal-container {
-  animation: terminal-fade var(--terminal-total, 12s) ease-out forwards;
-  animation-delay: var(--terminal-total, 12s); /* starts fading after full run */
+  animation: terminal-fade 1.2s ease-out forwards;
+  animation-delay: var(--terminal-total, 12s);
 }
+
 /* === End Glitchy Terminal Typewriter === */

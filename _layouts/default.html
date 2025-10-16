@@ -21,20 +21,19 @@
     {% endif %}
 
   <!-- Terminal container -->
-  {% if page.url == "/" or page.url == "/index.html" or page.permalink == "/" %}
-    <div class="terminal-container">
-      {% assign lines   = page.terminal_lines     | default: site.terminal_lines %}
-      {% assign char_ms = page.terminal_char_ms   | default: site.terminal_char_ms | default: 90 %}
-      {% assign gap_ms  = page.terminal_gap_ms    | default: site.terminal_gap_ms  | default: 400 %}
+  {% assign total_ms = acc %}
+  <div class="terminal-container" style="--terminal-total: {{ total_ms | divided_by: 1000.0 }}s;">
+    {% assign lines   = page.terminal_lines     | default: site.terminal_lines %}
+    {% assign char_ms = page.terminal_char_ms   | default: site.terminal_char_ms | default: 90 %}
+    {% assign gap_ms  = page.terminal_gap_ms    | default: site.terminal_gap_ms  | default: 400 %}
+    {% assign acc = 0 %}
+    {% for line in lines %}
+      {% include terminal.html text=line delay_ms=acc %}
+      {% assign line_ms = line | size | times: char_ms %}
+      {% assign acc = acc | plus: line_ms | plus: gap_ms %}
+    {% endfor %}
+  </div>
 
-      {% assign acc = 0 %}
-      {% for line in lines %}
-        {% include terminal.html text=line delay_ms=acc %}
-        {% assign line_ms = line | size | times: char_ms %}
-        {% assign acc = acc | plus: line_ms | plus: gap_ms %}
-      {% endfor %}
-    </div>
-  {% endif %}
 
 
 
