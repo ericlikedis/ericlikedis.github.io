@@ -100,100 +100,46 @@ a {
 }
 
 /* === Glitchy Terminal Typewriter === */
-.terminal {
-  background: #0a0a0a;
-  color: #9cff8a;
-  font: 600 18px/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  padding: 1.25rem 1.5rem;
-  border-radius: 12px;
-  box-shadow: 0 0 24px rgba(0,255,140,0.08) inset,
-              0 12px 30px rgba(0,0,0,0.35);
-  width: fit-content;
+/* === Terminal feed (stacking lines) === */
 
-  /* Center at bottom of viewport */
+/* Fixed container at bottom */
+.terminal-container {
   position: fixed;
-  bottom: 2rem;               /* distance from bottom edge */
+  bottom: 2rem;
   left: 50%;
   transform: translateX(-50%);
-  text-align: center;
-  z-index: 1000;              /* keep it above other content */
-  background: rgba(10, 10, 10, 0.85); /* slight transparency looks cleaner */
+  text-align: left;
+  font: 600 18px/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  color: #9cff8a;
+  background: rgba(10,10,10,0.85);
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 24px rgba(0,255,140,0.08) inset, 0 12px 30px rgba(0,0,0,0.35);
+  width: fit-content;
+  z-index: 1000;
 }
 
-.prompt { margin-right: .5ch; opacity: .8 }
+/* Lines stack like a terminal feed */
+.terminal-line { display: block; white-space: nowrap; }
+
+/* Prompt + typewriter */
+.prompt { margin-right: .5ch; opacity: .8; }
 
 .typewriter {
-  --n: 28;
   display: inline-block;
-  animation-delay: var(--delay, 0ms), var(--delay, 0ms);
-  white-space: nowrap;
   overflow: hidden;
   border-right: .12em currentColor;
   width: 0ch;
   animation:
     typing 2.8s steps(var(--n)) forwards,
     caret-blink .85s step-end infinite;
+  animation-delay: var(--delay, 0ms);  /* set per-line in the include */
 }
 @keyframes typing { to { width: calc(var(--n) * 1ch); } }
 @keyframes caret-blink { 50% { border-right-color: transparent; } }
 
-.glitch { position: relative }
-.glitch::before,
-.glitch::after {
-  content: attr(data-text);
-  position: absolute; inset: 0;
-  pointer-events: none;
-  mix-blend-mode: screen;
-}
-.glitch::before {
-  text-shadow: -2px 0 #ff004d;
-  animation: glitch-slice 2s infinite steps(12) alternate-reverse;
-}
-.glitch::after {
-  text-shadow: 2px 0 #00e5ff;
-  animation: glitch-slice 2.4s infinite steps(15) alternate-reverse;
-}
-/*
-@keyframes glitch-slice {
-  0%   { clip-path: inset(0 0 85% 0); transform: translate(0) }
-  10%  { clip-path: inset(10% 0 70% 0); transform: translate(-1px,-1px) }
-  20%  { clip-path: inset(40% 0 40% 0); transform: translate(1px,1px) }
-  30%  { clip-path: inset(65% 0 20% 0); transform: translate(-2px,1px) }
-  40%  { clip-path: inset(80% 0 5% 0);  transform: translate(2px,-1px) }
-  50%  { clip-path: inset(0 0 85% 0);   transform: translate(-1px,0) }
-  60%  { clip-path: inset(15% 0 65% 0); transform: translate(1px,0) }
-  70%  { clip-path: inset(45% 0 35% 0); transform: translate(0,1px) }
-  80%  { clip-path: inset(70% 0 15% 0); transform: translate(0,-1px) }
-  90%  { clip-path: inset(90% 0 0 0);    transform: translate(1px,-1px) }
-  100% { clip-path: inset(0 0 85% 0);    transform: translate(0) }
-}
-*/
-/* CRT overlay (optional) 
-.crt { position: relative; isolation: isolate }
-.crt::after {
-  content: "";
-  position: absolute; inset: 0;
-  pointer-events: none;
-  background:
-    repeating-linear-gradient(
-      to bottom,
-      rgba(156,255,138,0.08) 0,
-      rgba(156,255,138,0.08) 1px,
-      transparent 2px,
-      transparent 3px
-    );
-  opacity: .7;
-  animation: crt-flicker 4s infinite;
-}
-@keyframes crt-flicker {
-  0%,100% { opacity: .65 }
-  5% { opacity: .45 }
-  10% { opacity: .75 }
-  15% { opacity: .55 }
-  50% { opacity: .7 }
-}
-*/
+/* Accessibility */
 @media (prefers-reduced-motion: reduce) {
-  .typewriter { animation: none; border-right: 0; width: auto }
-  .glitch::before, .glitch::after, .crt::after { animation: none }
+  .typewriter { animation: none; border-right: 0; width: auto; }
 }
+/* === End Glitchy Terminal Typewriter === */
