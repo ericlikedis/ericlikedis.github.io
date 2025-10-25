@@ -42,7 +42,7 @@ python flockyou.py
 ```
 Access the dashboard:
 
-Open your browser to http://localhost:5000
+Open your browser to `http://localhost:5000`
 
 The web interface provides real-time detection monitoring
 
