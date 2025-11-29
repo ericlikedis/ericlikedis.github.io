@@ -12,14 +12,26 @@
 
   li {
     margin: 0.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: baseline;
+  }
+
+  li span {
+    flex-shrink: 0;
+  }
+
+  li a {
+    flex: 1;
+    min-width: 0;
+    word-break: break-word;
   }
 
   a {
-    display: block;
-    padding: 0.5rem 0;
-    min-height: 44px; /* Touch-friendly minimum height */
-    display: flex;
-    align-items: center;
+    display: inline;
+    padding: 0;
+    min-height: auto;
   }
 
   /* Prevent parent container overflow that blocks clicks */
