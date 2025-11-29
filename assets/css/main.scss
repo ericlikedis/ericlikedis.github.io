@@ -2,3 +2,29 @@
 ---
 
 @import "no-style-please";
+
+/* Mobile menu fix: ensure nested menu items are clickable on portrait */
+@media (max-width: 600px) {
+  ul {
+    margin: 0;
+    padding-left: 1rem;
+  }
+
+  li {
+    margin: 0.5rem 0;
+  }
+
+  a {
+    display: block;
+    padding: 0.5rem 0;
+    min-height: 44px; /* Touch-friendly minimum height */
+    display: flex;
+    align-items: center;
+  }
+
+  /* Prevent parent container overflow that blocks clicks */
+  .w {
+    overflow: visible;
+    padding: 1em 1rem;
+  }
+}
