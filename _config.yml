@@ -31,11 +31,11 @@ collections:
   reco:
     output: true
 
-terminal_lines:
-  - "$ python3 n30.py"
-  - "$ scanning local network..."
-  - "$ authenticating..."
-  - "$ status: ok!"
-# optional: per-line delay (in milliseconds)
-terminal_char_ms: 90  # ms per character (matches --t above)
-terminal_gap_ms: 600   # pause between lines
+#terminal_lines:
+#  - "$ python3 n30.py"
+#  - "$ scanning local network..."
+#  - "$ authenticating..."
+#  - "$ status: ok!"
+## optional: per-line delay (in milliseconds)
+#terminal_char_ms: 90  # ms per character (matches --t above)
+#terminal_gap_ms: 600   # pause between lines
