@@ -100,7 +100,7 @@ a {
 }
 
 /* Fixed container at bottom */
-.terminal-container {
+/* .terminal-container {
   position: fixed;
   bottom: 2rem;
   left: 50%;
@@ -116,10 +116,10 @@ a {
   z-index: 1000;
 }
 
-/* Lines stack like a terminal feed */
+/ Lines stack like a terminal feed /
 .terminal-line { display: block; white-space: nowrap; }
 
-/* Prompt + typewriter */
+/ Prompt + typewriter /
 .prompt { margin-right: .5ch; opacity: .8; }
 
 .typewriter {
@@ -128,8 +128,8 @@ a {
   border-right:.12em currentColor;
   width:0ch;
 
-  /* per-char timing + per-line delay */
-  --t: 90ms; /* ms per character (tweakable) */
+  / per-char timing + per-line delay /
+  --t: 90ms; / ms per character (tweakable) /
   animation:
     typing calc(var(--n) * var(--t)) steps(var(--n)) forwards,
     caret-blink .85s step-end infinite;
@@ -138,18 +138,18 @@ a {
 @keyframes typing { to { width: calc(var(--n) * 1ch); } }
 @keyframes caret-blink { 50% { border-right-color: transparent; } }
 
-/* Accessibility */
+/ Accessibility /
 @media (prefers-reduced-motion: reduce) {
   .typewriter { animation: none; border-right: 0; width: auto; }
 }
-/* Fade out the terminal container after all typing completes */
+/ Fade out the terminal container after all typing completes /
 @keyframes terminal-fade {
   to { opacity: 0; transform: translate(-50%, 20px); }
 }
 
 .terminal-container {
-  animation: terminal-fade 0.8s ease-out forwards; /* faster fade */
-  animation-delay: var(--terminal-total, 8s);     /* waits for typing to finish */
+  animation: terminal-fade 0.8s ease-out forwards; / faster fade /
+  animation-delay: var(--terminal-total, 8s);     / waits for typing to finish /
 }
 
-/* === End Glitchy Terminal Typewriter === */
+/ === End Glitchy Terminal Typewriter === */
