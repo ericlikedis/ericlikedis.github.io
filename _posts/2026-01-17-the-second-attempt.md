@@ -8,7 +8,7 @@ category: blog
 
 today i recieved my dell xps 15 (9500), such a good piece of hardware for development in my opinion
 
-for $350, id say it is a solid machine for what i need it for. (virtual machines, development work, homelabbing, brushing up on enumeration skills after failing the pentest + [here](/_posts/2025-12-05-on-failure.md))
+for $350, id say it is a solid machine for what i need it for. (virtual machines, development work, homelabbing, brushing up on enumeration skills after failing the pentest + [here](https://ericlikedis.github.io/on-failure.html))
 
 ![img](/assets/images/dellxps.png)
 
