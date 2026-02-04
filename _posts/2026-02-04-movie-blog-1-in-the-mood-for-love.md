@@ -4,21 +4,32 @@ title: movie diary 1 [In The Mood For Love]
 category: blog
 ---
 
-<!-- SoundCloud embed (accent color set to dark gray) -->
+<!-- SoundCloud Visual Player (dark-style) -->
 <iframe
   width="100%"
-  height="166"
+  height="450"
   scrolling="no"
   frameborder="no"
   allow="autoplay"
-  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2099732598&color=%23222222&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+  src="https://w.soundcloud.com/player/?visual=true&url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2099732598&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
 </iframe>
 
 <div style="font-size: 10px; color: #cccccc; line-break: anywhere; word-break: normal; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif; font-weight: 100;">
-  <a href="https://soundcloud.com/user109864308085" title="." target="_blank" rel="noopener noreferrer" style="color: #cccccc; text-decoration: none;">.</a>
+  <a href="https://soundcloud.com/user109864308085"
+     title="."
+     target="_blank"
+     rel="noopener noreferrer"
+     style="color: #cccccc; text-decoration: none;">.</a>
   ·
-  <a href="https://soundcloud.com/user109864308085/sade-like-a-tattoo" title="Sade - Like a Tattoo" target="_blank" rel="noopener noreferrer" style="color: #cccccc; text-decoration: none;">Sade - Like a Tattoo</a>
+  <a href="https://soundcloud.com/user109864308085/sade-like-a-tattoo"
+     title="Sade - Like a Tattoo"
+     target="_blank"
+     rel="noopener noreferrer"
+     style="color: #cccccc; text-decoration: none;">
+     Sade - Like a Tattoo
+  </a>
 </div>
+
 
 
 ### a movie review
