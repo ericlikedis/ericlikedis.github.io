@@ -4,6 +4,8 @@ title: hurry up tomorrow
 category: blog
 ---
 
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A954256861&color=%23302b29&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user-708371813" title="Devils Knight" target="_blank" style="color: #cccccc; text-decoration: none;">Devils Knight</a> · <a href="https://soundcloud.com/user-708371813/cyberpunk-2077-ost-new-dawn-fades-temperance-ending-theme" title="Cyberpunk 2077 OST - New Dawn Fades" target="_blank" style="color: #cccccc; text-decoration: none;">Cyberpunk 2077 OST - New Dawn Fades</a></div>
+
 #### hurry up tomorrow
 
 the weight of yesterday still lingers, but for the first time in years, it doesn’t press so heavily on my chest. i have spent too long drowning in regret, chasing fleeting highs that only left me emptier. the ghosts of my past may never fully fade, but i no longer let them dictate my future. there was a time when i thought i was beyond saving—too broken, too lost, too far gone to ever climb out of the abyss i had created. but i was wrong.
