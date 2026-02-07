@@ -25,3 +25,7 @@ i don’t know what tomorrow holds. maybe peace, maybe struggle. but i will meet
 for the first time in a long time, i am not looking back. i am moving forward.
 
 _hurry up, tomorrow_.
+
+_"i kinda hoped for a happier ending..."_
+
+_"for us? wrong city, wrong people."_
