@@ -15,8 +15,8 @@ entries:
       - title: vsco (yea i still use it, hop OFF!)
         url: https://vsco.co/22e22e22/gallery
         new_tab: true
-    #  - title: hire me
-    #    url: https://www.linkedin.com/in/eric-reymundo/
+      - title: contact me\:\n30@smokes.thc.org
+        url: # this is just a placeholder, the actual email is in the title
   # - title: kategori-1
   #   post_list:
   #     category: example2
