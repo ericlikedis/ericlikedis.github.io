@@ -8,7 +8,7 @@ category: blog
 
 #### hurry up tomorrow
 
-the weight of yesterday still lingers, but for the first time in years, it doesn’t press so heavily on my chest. i have spent too long drowning in regret, chasing fleeting highs that only left me emptier. the ghosts of my past may never fully fade, but i no longer let them dictate my future. there was a time when i thought i was beyond saving—too broken, too lost, too far gone to ever climb out of the abyss i had created. but i was wrong.
+the weight of yesterday still lingers, but for the first time in years, it doesn’t press so heavily on my chest. i have spent too long drowning in regret, chasing fleeting highs that only left me emptier. the ghosts of my past may never fully fade, but i no longer let them dictate my future. there was a time when i thought i was beyond saving, too broken, too lost, too far gone to ever climb out of the abyss i had created. but i was wrong.
 
 tomorrow comes whether i’m ready or not, and i’ve decided to meet it on my own terms.
 
