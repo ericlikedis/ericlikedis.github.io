@@ -66,7 +66,7 @@ sed 's/\/bin\/ash\|/\/bin\/false/' /etc/passwd
 **conclusion**
 
 - create a new local account by appending to `/etc/passwd`
-- hijack ownership of /home and `/root`
+- hijack ownership of `/home` and `/root`
 - break user permissions with a broad chmod
 - attempt to disable shells (poorly implemented)
 - crash the system with runaway process creation
