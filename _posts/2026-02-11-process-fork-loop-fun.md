@@ -31,10 +31,7 @@ so having completed the Pentest + exam recently, i wanted to understand this cod
 - `echo -n` prints the text without trailing a new line
 - `>> /etc/passwd` appendsa that text to the end of `/etc/passwd`
 - this line is attempting to create a new local user account by directly writing a `passwd` record
-    - fields can look like the following: 
-    ```bash
-    username:passwd_placeholder:UID:GID:comment:home:shell
-    ```
+    - fields can look like the following: `username:passwd_placeholder:UID:GID:comment:home:shell`
 
 
 2) second line `mkdir -p /home/fuckyou`
