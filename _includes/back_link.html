@@ -1,9 +1,1 @@
-{% if page.category %}
-  {% if page.category == "blog" %}
-    <a href="{{ "/blogs/" | relative_url }}">{{ site.theme_config.back_home_text }}</a>
-  {% else %}
-    <a href="{{ "/" | append: page.category | append: "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a>
-  {% endif %}
-{% else %}
-<a href="{{ "/archive.html" | relative_url }}">{{ site.theme_config.back_home_text }}</a>
-{% endif %}
+{% if page.category == "blog" %}<a href="{{ "/blogs/" | relative_url }}">{{ site.theme_config.back_home_text }}</a>{% elsif page.category %}<a href="{{ "/" | append: page.category | append: "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a>{% else %}<a href="{{ "/archive.html" | relative_url }}">{{ site.theme_config.back_home_text }}</a>{% endif %}
