@@ -4,12 +4,14 @@
 entries:
   - title: <b> take a look at  </b>
     entries:
-      - title: my articles ...>>
+      - title: archive...>>
         url: archive.html
-      - title: art..>>
+      - title: art...>>
         url: /art/
-      - title: brain dumps..>>
+      - title: brain dumps...>>
         url: /brain-dumps/
+      - title: blogs
+        url: /blogs/
 
   - title: <b> my links  </b>
     entries:
