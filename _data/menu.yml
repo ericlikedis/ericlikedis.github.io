@@ -6,6 +6,8 @@ entries:
     entries:
       - title: my articles ...>>
         url: archive.html
+      - title: art..>>
+        url: /art/
 
   - title: <b> my links  </b>
     entries:
