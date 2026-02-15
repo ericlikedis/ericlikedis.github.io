@@ -17,3 +17,5 @@ some may appear out of order however, here are some journals ive had over the ye
 ![img](/assets/images/Book-2020.png)
 
 ![img](/assets/images/I%20was%20so%20lost%20for%20you.png)
+
+n30
