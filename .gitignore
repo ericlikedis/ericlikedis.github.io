@@ -7,4 +7,5 @@
 _site
 vendor
 Gemfile.lock
+.DS_Store
 /home/neo/Desktop/dev/ericlikedis.github.io/_posts/2026-02-06-hurry-up-tomorrow.md
