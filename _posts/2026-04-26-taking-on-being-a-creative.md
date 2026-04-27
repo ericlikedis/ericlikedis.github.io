@@ -1,6 +1,6 @@
 ---
 layout: post
-title: taking on being an "creative"
+title: taking on being a "creative"
 category: art
 ---
 
